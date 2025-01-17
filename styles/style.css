@@ -70,8 +70,46 @@
     margin-top: 32px;
     margin-bottom: 40px;
 }
+main > section{
+    margin-top: 130px;
+}
+.image-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-con{
+    display: flex ;
+    
+}
+.dark3{
+    color: #727272;
+}
+.feature-des{
+    margin-left: 73px;
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    
+}
+.feature-title{
+    font-size: 2.8rem ;
+    
+}
+.feature-para{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+#p1{
+    font-weight: 500;
 
+}
+#p2{
 
+}
+#p3{
+    color: #FF900E;
+
+}
 @media screen and (max-width:576px) {
     .nav-list , .nav-con{
         flex-direction: column;
