@@ -186,6 +186,9 @@ main > section{
     margin-bottom: 24px;
    
 }
+.love-feature img{
+    width: 100%;
+}
 .ppp{
     margin-bottom: 100px ;
 }
@@ -204,8 +207,15 @@ main > section{
 .sponsor-image img{
     filter: grayscale(100%);
 }
+.foot{
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 70px;
+    padding: 39px ;
+}
 @media screen and (max-width:576px) {
-    .nav-list , .nav-con , .feature-con{
+    .nav-list , .nav-con , .feature-con , .love-feature{
         flex-direction: column;
     }
     .image-con , .feature-box-con ,.sponsor-image{
@@ -220,10 +230,14 @@ main > section{
     .sponsor-info{
         margin: auto;
     }
+    .badge{
+        margin-top: -20px;
+        margin-left: auto;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .feature-box-con , .feature-con{
+    .feature-box-con , .feature-con ,  .love-feature{
         flex-direction: column;
     }
     .image-con , .feature-box-con, .sponsor-image{
@@ -232,6 +246,10 @@ main > section{
     }
     .feature-box-con ,.sponsor-image{
         gap: 50px;
+    }
+    .badge{
+        margin-top: -20px;
+        margin-left: 20px;
     }
     
 }
