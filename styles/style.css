@@ -89,6 +89,7 @@ main > section{
     margin-left: 73px;
     padding-top: 12.5rem;
     padding-bottom: 12.5rem;
+    max-width: 537px;
     
 }
 .feature-title{
@@ -108,8 +109,23 @@ main > section{
 
 }
 @media screen and (max-width:576px) {
-    .nav-list , .nav-con{
+    .nav-list , .nav-con , .feature-con{
         flex-direction: column;
+    }
+    .image-con{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-des{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .feature-con{
+        flex-direction: column;
+    }
+    .image-con{
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
