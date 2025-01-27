@@ -234,11 +234,17 @@ main > section{
         margin-top: -20px;
         margin-left: auto;
     }
+    .image-con{
+        margin: auto;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .feature-box-con , .feature-con ,  .love-feature{
         flex-direction: column;
+    }
+    .image-con{
+        margin: auto;
     }
     .image-con , .feature-box-con, .sponsor-image{
         
